@@ -181,7 +181,7 @@ if __name__ == '__main__':
     keyword = Keyword()
     scrap = Scraping()
 
-    titles = keyword.input_keyword_list()  # 영화 제목들을 입력받음
+    titles = keyword.input_keyword_list()  # 영화 제목들을 입력받
 
     info = scrap.get_scrap_info(titles)  # 영화 제목마다 검색해서 스크래핑
 
